@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical" android:layout_width="match_parent"
+android:layout_height="wrap_content"
+
+android:layout_margin="6dp">
+
+<ImageView
+    android:id="@+id/detail_iv"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:src="@mipmap/ic_launcher"
+    />
+<TextView
+    android:id="@+id/detail_tv"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:maxLines="2"
+    android:text="Android：这是一份全面  详细的RecylerView学习攻略"/>
+
+</LinearLayout>
